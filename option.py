@@ -16,7 +16,7 @@ def Answer_outPut():
 
     Please format the tasks as follows and avoid repetition:
 
-- For many-way Conversation:
+    - For two-way Conversation:
 
       {
          "action_item": {
@@ -37,6 +37,7 @@ def Answer_outPut():
          }
       }
    ]
+   so on
     """
     }
     return  summary_output_options
